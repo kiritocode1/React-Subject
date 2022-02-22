@@ -2,6 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&family=Monoton&family=Pacifico&family=Praise&family=Tourney:wght@100&family=VT323&display=swap');
+
+
+/* 
+font-family: 'Major Mono Display', monospace;
+font-family: 'Monoton', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Praise', cursive;
+font-family: 'Tourney', cursive;
+font-family: 'VT323', monospace; 
+*/
+
+
+
+
+
+.transition01{
+  background: url("./transition1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+
+
+
+.font01{
+  font-family: 'Pacifico', cursive;
+  
+}
+.font02{
+  font-family: 'Praise', cursive;
+}
+.font03{
+font-family: 'Major Mono Display', monospace;
+}
+.font04{
+  font-family: 'VT323', monospace; 
+}
+
+
+
+
+
+
 /* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
