@@ -26,6 +26,18 @@ font-family: 'VT323', monospace;
   background-position: top;
 }
 
+.transition02{
+  background: url("./layer02.svg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+.transition03{
+  background: url("./layer03.svg");
+    background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
 
 
 

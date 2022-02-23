@@ -9,7 +9,7 @@ import mainPhoto from './mainPhoto.png';
 import { FaLongArrowAltRight } from "react-icons/fa";
 function App() {
   // const [vis, setvis] = useState(false);
-  const props = useSpring({ to: { opacity: 1 ,fontSize:60}, from: { opacity: 0,fontSize:100 }, duration:3000});
+  const props = useSpring({ to: { opacity: 1 ,fontSize:80}, from: { opacity: 0,fontSize:100 }, duration:3000});
   
   const misk = useSpring({
     from: {
@@ -95,7 +95,7 @@ const gradients = useSpring({
 
   return (<div className='App flex flex-col justify-center items-center bg-black'>
     <Navbar/>
-    <div className=' h-96  flex wrap flex-col justify-center items-center w-full bg-inherit text-white font-mono'>
+    <div className=' h-96  flex wrap flex-col justify-center items-center w-full bg-inherit text-white font-mono font01'>
     <a.h1 style={props}>hello world <strong className="animate-ping font04">[^‿^]</strong> .</a.h1>
     <a.p className=" w-full" style={misk}>
         hello is something i wanted to say that , it's been 60 minuites and<br /> <a.strong style={gradients}>i haven't said something for a lot of time</a.strong>
@@ -124,18 +124,60 @@ const gradients = useSpring({
     </div>
     <div className='bg-white text-black w-full h-96 text-3xl font01'>
       i have 5 people in my family
-      <div className="text-xl w-full bg-inherit text-left px-2 mt-2 flex items-center">
+      <div className="text-xl w-full bg-inherit text-left px-2 mt-6 flex items-center">
         My mom's Name is Sanjeevani kathawale she looks like this <FaLongArrowAltRight />  <a className="bold hover:text-2xl transition ease-in-out animate-pulse flex " href="https://www.linkedin.com/in/sanjeevani-kathawale-215995ab/?originalSubdomain=in" target="blank">(●'◡'●)</a>
         
       </div>
             <div className="text-xl w-full bg-inherit text-left px-2 mt-2 flex items-center">
-        she is a b Ed graduate and  designs curriculum for children in schools. 
+        she is a b Ed graduate and  designs curriculum for children in schools. <br/> she loves watching sit-coms and listen to indian music , radio , dances etc .
       </div>
-    <div className="text-xl w-full text-right mt-6 font01 text-black flex items-end justify-end px-2">
+    <div className="text-xl w-full text-right mt-6 font01 text-black flex  justify-end px-6 items-center ">
         My Brother's name is  Kathawale Aryan and he looks like this <FaLongArrowAltRight />
-        <a href="https://github.com/kiritocode1" className="text-red-500">•/_\•</a>
+        <a href="https://github.com/kiritocode1" className="hover:text-black text-gray-900 bold font01 hover:text-2xl animate-pulse">•/_\•</a><br />
       </div>
+      <div className="text-xl w-full text-right  font01 text-black flex items-end justify-end px-6">
+        he is a full stack developer . php developer . <br/> android developer , ios developer , system architexture , red hat and much more.<br/> he likes cookies and coding , with music on side . 
+      </div>
+      <div className="text-xl w-full bg-inherit text-left px-2 mt-6 flex items-center">
+        my Aunt's name is Aparna Kathawale and she  looks like this  <FaLongArrowAltRight /> <a href="https://github.com/kiritocode1" className="hover:text-black text-red-600 bold font01 hover:text-2xl animate-pulse">(ˉ﹃ˉ) </a><br />
+      </div>
+      <div className="text-xl w-full bg-inherit text-left px-2  flex items-center">
+        she is a fantastic chef and also a very good housewife ,<br/> she is really a great help and makes delish foods for all of us to eat , she is my third favourite person in this world,<br/> ( first is john cena ).
+      </div>
+      <div className="text-xl w-full bg-inherit text-right px-6  flex items-center justify-end">
+        my Grand-father's name is Kishan kathawale , he  looks like this <FaLongArrowAltRight/><a href="https://google.com" className="bg-green-500 animate-pulse hover:text-2xl">(T_T)</a>
+      </div>
+      <div className="text-xl w-full bg-inherit text-right px-6  flex items-center justify-end">
+        he is a landlord , he leases land for a living , <br/> he loves fish and chicken <br/> he does'nt love to fish , i mean he loves to eat the fish  
+      </div>
+      <div className="text-xl w-full bg-inherit text-left px-2  flex items-center mt-6">
+        i have a father , he ... exists . and looks like this <FaLongArrowAltRight/><a href="https://google.com" className="text-purple-500 animate-pulse hover:text-2xl">ಥ_ಥ</a>
+      </div>
+      <div
+      className=" w-full bg-inherit">
+      <div className="transition02 h-[90rem] w-full flex flex-col items-center justify-end text-[#69fabc] pb-40">
+          <div className="text-9xl pt-3">
+            my friends
+          </div>
+          <div className="w-full  mt-20">
+            i dont have any...
+          </div>
+        </div>
+            <div className="transition03 h-[70rem] w-full flex flex-col items-center justify-end text-[#001220]">
+          <div className="text-9xl pt-3">
+            my friends
+          </div>
+          <div className="w-full  mt-20">
+            i dont have any...
+          </div>
+        </div>
+      
     </div>
-  </div>);
+    </div>
+
+
+  </div>
+  
+  );
 }
 export default App;
