@@ -1,5 +1,5 @@
 import React from "react";
-import { useSpring, animated as a } from "react-spring";
+// import { useSpring, animated as a } from "react-spring";
 
 
 
@@ -22,7 +22,7 @@ const NavbarMd = () => {
 
 const NavbarSm = () => {
     return (<div className="flex">
-        small
+        
     </div>)
 };
 
