@@ -14,7 +14,6 @@ function App() {
   const misk = useSpring({
     from: {
       opacity: 0,
-
       color:"gray",
     },
     to: {
@@ -93,6 +92,21 @@ const gradients = useSpring({
     delay:4000
 })
 
+  const gart3 = useSpring({
+    from: {
+      fontSize:10,
+      rotate:5
+    },
+    to: {
+      fontSize:170,
+      rotate:-5
+    },
+    loop: true,
+    delay:1000
+  })
+  
+
+  
   return (<div className='App flex flex-col justify-center items-center bg-black'>
     <Navbar/>
     <div className=' h-96  flex wrap flex-col justify-center items-center w-full bg-inherit text-white font-mono font01'>
@@ -119,7 +133,7 @@ const gradients = useSpring({
 
 
     </div>
-    <div className='bg-white h-96 text-9xl  w-full font01 pt-6'>
+    <div className='bg-white h-[30rem] text-9xl  w-full font01 pt-6'>
       MY Family
     </div>
     <div className='bg-white text-black w-full h-96 text-3xl font01'>
@@ -155,27 +169,34 @@ const gradients = useSpring({
       </div>
       <div
       className=" w-full bg-inherit">
-      <div className="transition02 h-[90rem] w-full flex flex-col items-center justify-end text-[#69fabc] pb-40">
+      <div className="transition02 h-[190rem] w-full flex flex-col items-center justify-center text-[#69fabc] pb-40">
           <div className="text-9xl pt-3">
             my friends
           </div>
-          <div className="w-full  mt-20">
-            i dont have any...
+          <div className="w-full  mt-20 text-right px-2">
+            lorem ipsum dolor <br/> sit amet 
           </div>
         </div>
-            <div className="transition03 h-[70rem] w-full flex flex-col items-center justify-end text-[#001220]">
-          <div className="text-9xl pt-3">
-            my friends
+            <div className="transition03 h-[190rem] w-full flex flex-col items-center justify-end text-[#001220]">
+          
+          
+          
+          <a.div className="mb-9">
+            all my social handles are up so 
+          </a.div>
+          
+                    <div className="w-full  mt-20 text-2xl pb-60">
+            i dont have anything else to say or render , sooo
           </div>
-          <div className="w-full  mt-20">
-            i dont have any...
-          </div>
+          
+          <a.div className="text-9xl pt-3 pb-20" style={gart3}>
+            that's all folks!
+          </a.div>
+
         </div>
       
     </div>
     </div>
-
-
   </div>
   
   );
