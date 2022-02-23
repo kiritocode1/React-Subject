@@ -98,7 +98,7 @@ const gradients = useSpring({
       rotate:5
     },
     to: {
-      fontSize:170,
+      fontSize:100,
       rotate:-5
     },
     loop: true,
@@ -177,7 +177,7 @@ const gradients = useSpring({
             lorem ipsum dolor <br/> sit amet 
           </div>
         </div>
-            <div className="transition03 h-[190rem] w-full flex flex-col items-center justify-end text-[#001220]">
+            <div className="transition03 h-[190rem] w-full flex flex-col items-center justify-center text-[#001220]">
           
           
           
