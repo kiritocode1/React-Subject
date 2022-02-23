@@ -125,9 +125,9 @@ const gradients = useSpring({
       <br /> im 16 years old [as of 2021-22]<br />
       in the virtual world i look like this <b className="font04 bold text-xl">[^_^]</b> <br/>
         but in reality i look like this:</a.div> 
-      <div className="pt-6 flex items-center justify-center bg-inherit gap-4 mt-2 z-0">
+      <div className="pt-6 flex items-center justify-center bg-inherit gap-4 mt-2 z-0 flex-wrap">
         <a.img src={mainPhoto} alt="main" className=' object-fill rounded-lg shadow-lg decoration-white z-0' style={gaara2}/>
-      <a.h1 className="animate-pulse" style={gart2}>there is a lot more to know about me <br/> but you need to know me in person before that</a.h1>
+      <a.h1 className="animate-pulse pt-10 pl-8" style={gart2}>there is a lot more to know about me <br/> but you need to know me in person before that</a.h1>
       </div>
 
 
