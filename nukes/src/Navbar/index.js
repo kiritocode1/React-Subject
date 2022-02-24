@@ -10,7 +10,7 @@ const NavbarLg = () => {
     return (<div className="w-full flex justify-end gap-3 bg-black px-2 pt-2">
         <a href="https://wa.me/+917058050364?text=Hi%27,%20like%20to%20chat%20with%20you" target="_blank "><RiWhatsappFill  className="text-[#25D366]"/></a>
         <a href="href=https://techcrunch.com/2014/09/29/snapchat-spam-might-make-you-feel-fat-but-at-least-its-not-snapchats-fault/" target="_blank "><BsSnapchat className="text-[#FFFC00]" /></a>
-        <a href="https://www.facebook.com/mosmi.kathawale"><TiSocialFacebookCircular className="text-[#3b5998] w-4 h-4"/></a>
+        <a href="https://www.facebook.com/mosmi.kathawale"><TiSocialFacebookCircular className="text-[#3b5998] w-4 h-4" target=" _blank"/></a>
     </div>);
 }
 
