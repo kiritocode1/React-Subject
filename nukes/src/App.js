@@ -120,7 +120,7 @@ const gradients = useSpring({
     
     <div className="transition01 w-full h-[90rem] text-white  font03 px-2 justify-center" >
       <a.div className="font02 w-full flex justify-center   text-9xl  animate-pulse" style={flower} >About ME !</a.div>
-      <a.div style={gaara}>im a commerce student from far away land of bhiwandi , 
+      <a.div style={gaara} className="pb-10">im a commerce student from far away land of bhiwandi , 
       My Real name is Mosmi Kathawale. im a passionate developer , artist and an absolutely awesome baker, 
       <br /> im 16 years old [as of 2021-22]<br />
       in the virtual world i look like this <b className="font04 bold text-xl">[^_^]</b> <br/>
